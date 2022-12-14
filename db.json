@@ -1,16 +1,35 @@
 {
-  "posts":[
+  "todos": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "title": "plan입니다",
+      "content": "내용입니다",
+      "progress": "plan",
+      "when": "morning",
+      "createDate": "date"
+    },
+    {
+      "title": "working입니다",
+      "content": "내용입니다",
+      "progress": "working",
+      "when": "afternoon",
+      "createDate": "date"
+    },
+    {
+      "title": "done입니다",
+      "content": "내용입니다",
+      "progress": "done",
+      "when": "evening",
+      "createDate": "date"
     }
   ],
-  "comments" : [
+  "comments": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "username": "test",
+      "comment": "test",
+      "createDate": "2022-12-12",
+      "editCheck": false,
+      "todoId": "1",
+      "id": "2"
     }
   ]
 }
